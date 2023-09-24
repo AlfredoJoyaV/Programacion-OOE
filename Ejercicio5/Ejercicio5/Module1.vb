@@ -1,6 +1,7 @@
 ﻿Module Module1
 
     Sub Main()
+        '5. Escriba un programa que escriba la tabla de multiplicar de x número ingresado por el usuario
 
         Console.WriteLine("------------------------------------------------------------------------------------------------")
         Console.WriteLine("                Bienvenidos a Programación Orientada a Objetos y Eventos")
@@ -13,7 +14,7 @@
                 Console.WriteLine("------------------------------------------------------------------------------------------------")
                 Console.Write("Escriba el numero de la tabla que desea calcular: ")
                 nTabla = Console.ReadLine()
-
+                'Proceso
                 For I = 1 To 10
                     Console.WriteLine(nTabla.ToString() + "x" + I.ToString() + "=" + (nTabla * I).ToString())
                 Next
